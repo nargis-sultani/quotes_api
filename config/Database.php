@@ -2,7 +2,7 @@
 class Database{
 
     // specify your own database credentials
-    private $host;
+    /*private $host;
     private $port;
     private $dbname;
     private $username;
@@ -16,14 +16,14 @@ class Database{
          $this->dbname = getenv('DBNAME');
          $this->host = getenv('HOST');
          $this->port =  getenv('PORT');
-    }
+    }*/
 
-    /*private $host = "dpg-cg998cseooghng6ulel0-a.oregon-postgres.render.com";
+    private $host = "dpg-cg998cseooghng6ulel0-a.oregon-postgres.render.com";
     private $port = "5432";
     private $dbname = "quotesdb_gct4";
     private $username = "admin";
     private $password = "3NYcymJbCA3eLUsaZmu6cYdq1J88QpV0";
-    private $conn;*/
+    private $conn;
 
     // get the database connection
     public function connect(){
